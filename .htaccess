@@ -1,0 +1,2 @@
+Options -Indexes
+ErrorDocument 404 /FutureMart/404.php

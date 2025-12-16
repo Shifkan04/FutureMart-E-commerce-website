@@ -1,0 +1,97 @@
+.testimonial-header {
+    background: var(--gradient-2);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    box-shadow: 0 8px 25px rgba(255, 99, 182, 0.3);
+}
+
+.testimonial-form-card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-form-card h4 {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--text-muted);
+}
+
+.testimonialForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-control {
+    background-color: var(--modal-bg) !important;
+    color: var(--text-light) !important;
+    margin-bottom: 0.25rem;
+}
+
+.form-control::placeholder {
+    color: var(--text-muted) !important;
+}
+
+.rating-input-large {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.rating-input-large .star-label {
+    font-size: 2.5rem;
+    color: #d1d5db;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.rating-input-large .star-label:hover,
+.rating-input-large .star-label:hover~.star-label,
+.rating-input-large input:checked~.star-label {
+    color: #fbbf24;
+    transform: scale(1.1);
+}
+
+.my-testimonials-section {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 15px;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.testimonial-status {
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.status-approved {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--success-color);
+}
+
+.status-pending {
+    background: rgba(245, 158, 11, 0.1);
+    color: var(--warning-color);
+}
