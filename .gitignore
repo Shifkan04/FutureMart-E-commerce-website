@@ -1,0 +1,22 @@
+# env
+.env
+
+# uploads (never commit user data)
+uploads/
+user/uploads/
+admin/uploads/
+delivery/uploads/
+
+# vendor (composer will install)
+vendor/bin/
+vendor/composer/
+vendor/uploads/
+# node / cache
+node_modules/
+
+# logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
