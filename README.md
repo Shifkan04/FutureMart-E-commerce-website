@@ -6,13 +6,13 @@ It features a robust **Role-Based Access Control (RBAC)** system with four disti
 
 ## 📸 Project Screenshots
 
-| **Home Page** | **Product Page** |
+| **Home Page** | **Products Page** |
 |:---:|:---:|
-| <img src="screenshots/home.png" alt="Home Page" width="400"/> | <img src="screenshots/product.png" alt="Product Page" width="400"/> |
+| <img src="screenshots/Home.png" alt="Home Page" width="400"/> | <img src="screenshots/Shop.png" alt="Product Page" width="400"/> |
 
-| **Admin Dashboard** | **Vendor Panel** |
+| **Admin Dashboard** | **Delivery Route** |
 |:---:|:---:|
-| <img src="screenshots/admin.png" alt="Admin Dashboard" width="400"/> | <img src="screenshots/vendor.png" alt="Vendor Panel" width="400"/> |
+| <img src="screenshots/Admin_dash.png" alt="Admin Dashboard" width="400"/> | <img src="screenshots/Route.png" alt="Vendor Panel" width="400"/> |
 
 *(Note: These screenshots represent the actual working interface of the application.)*
 
@@ -64,7 +64,8 @@ To run this project on your local machine, follow these steps:
 6.  **Run:** Open your browser and go to `http://localhost/FutureMart-E-commerce-website/`.
 
 ## 📂 Folder Structure
-
+/FutureMart-E-commerce-website │ ├── /admin # Admin panel files (Dashboard, User/Vendor management) │ ├── index.php # Admin login │ ├── dashboard.php # Admin home │ └── ... │ ├── /vendor # Vendor panel files (Product upload, Order view) │ ├── login.php # Vendor login │ ├── products.php # Manage products │ └── ... │ ├── /assets # Static assets (CSS, JS, Images, Fonts) │ ├── /css # Stylesheets │ ├── /js # JavaScript files (AJAX, Validations) │ └── /images # Site logos and icons │ ├── /includes # Reusable PHP components (Header, Footer, DB Connect) │ ├── db_connect.php # Database connection file │ ├── header.php # Common navigation bar │ └── footer.php # Common footer │ ├── /uploads # Product images uploaded by vendors │ ├── /sql # Database SQL file │ └── database.sql # Import this file to phpMyAdmin │ ├── index.php # Landing page (Home) ├── product.php # Product details page ├── cart.php # Shopping cart logic ├── checkout.php # Checkout process └── README.md # Project documentation
 ---
 **Author:** Jaroof Deen Shifkan  
 [LinkedIn](https://www.linkedin.com/in/shifkan/) | [GitHub](https://github.com/shifkan04)
+
